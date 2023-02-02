@@ -1,0 +1,486 @@
+
+body {
+    height: 3000px;
+    width: 100%;
+}
+
+
+ .dramas {
+   /* width: 23%; */
+float: left;
+margin: 10px;
+left: 10px;
+background-color: black; 
+} 
+    
+
+
+.dramaimage {
+    width: 100%;
+    border-radius: 4px;
+}
+.dramaimage1,.dramaimage2{
+    width: 100%;
+    height:174.52px;
+    transition: transform 0.3s ease-out;
+    border-radius: 4px;
+ transition: 0.1s ease-in-out;
+}
+
+  
+.button{
+    display: inline-block;
+    background-color:rgb(58, 57, 57) ;
+    color: rgb(177, 174, 174);
+    font-size: 14px;
+    font-weight:bold;
+    border: none;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: 0px;
+    border-radius: 3px;
+}
+
+span{
+    color:rgb(175, 172, 172);
+    font-size: 18px;
+}
+
+    
+p{
+    font-size: 20px;
+    color: white;
+margin-top:5px;
+}
+
+
+
+ .one{ 
+    position: relative;
+ transition: 0.1s ease-in-out; 
+ 
+}
+
+.one:hover{
+     transform:scale(1.25) ; 
+
+}
+.transform{
+    transition: 0.1s ease-in-out; 
+
+}
+.transform:hover{
+    transform:scale(1.25) ;    
+}
+
+.one1,.two1,.three1{ 
+     top:0 ;
+    left: 0;
+    position:absolute;
+   
+}
+div button{
+    background-color: rgb(15, 124, 160);
+    color: white;
+    border: none;
+    border-radius:3px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-weight: bold;
+}
+
+.one3{ 
+    opacity: 0;
+    bottom:0;
+   
+    left: 3px;
+    color:white;
+    font-size: 18px;
+    font-weight:bold;
+    position: absolute;
+}
+.one3:hover{
+    opacity: 1;
+}
+.two,.three{
+    position: relative;
+}
+
+
+#movies,#dramas_{
+    text-align: center;
+    color:rgb(216, 11, 11);
+    font-weight :700px;;
+    font-size: 80px;
+    font-family: 'Crimson Text', serif;
+
+}
+
+/* @media(max-width:576px){ */
+    /* .dramas-movies{
+        /* display:flex; */
+
+        /* flex-direction: row; */
+        /* flex-wrap: wrap; */
+
+    /* } */ 
+    /* .dramas{
+        margin: auto;
+        margin-top: 20px;
+        width:50%;
+height:30vw;
+margin-bottom: 10px; */
+/* float:left */
+        /* display: flex;
+        flex-direction: row; */
+       /* flex:1; */
+       /* flex-wrap: wrap; */
+      
+    /* align-items: center; */
+/* justify-content:space-evenly; */
+
+/* since we specified the width and height of the div(div name=dramas) ,here we didnt need to use the property display:flex. */
+/* margin: auto; */
+/* align-items: center;
+vertical-align: middle;
+     */
+    /* margin-right:100px */
+/* justify-content: center;} */
+    /* } */
+    /* span{
+        color:rgb(175, 172, 172);
+        font-size: 18px; */
+/* display: inline-block; */
+/* margin-top: 0;     */
+    /* } */
+  /* span:hover{
+    text-decoration: none;
+  }  
+        
+p{
+        font-size: 20px;
+        color: white; */
+    /* margin-top:5px; */
+    /* margin-left:50px; */
+
+    /* } */
+
+    /* p:hover{
+        text-decoration: none;
+      } 
+      .dramaimage {
+        width: 100%;
+        border-radius: 4px; */
+        /* height: auto; */
+    /* }
+    .dramaimage1,.dramaimage2{
+        width: 100%;
+        height:174.52px; */
+        /* height: auto; */
+
+        /* transition: transform 0.3s ease-out;
+        border-radius: 4px;
+     transition: 0.1s ease-in-out;
+    }
+} */
+
+/* @media(min-width:576px){ */
+    /* .dramas-movies{
+        /* display:flex; */
+
+        /* flex-direction: row; */
+        /* flex-wrap: wrap; */
+
+    
+    /* .dramas{ */
+        /* display: flex;
+        flex-direction: row; */
+       /* flex:1; */
+       /* flex-wrap: wrap; */
+       /* margin: auto; */
+       /* margin-top: 20px;
+       float: left;
+       margin-left:40px;
+       margin-bottom: 40px; */
+       /* display: flex; */
+    /* align-items: center; */
+/* justify-content:space-evenly; */
+/* width:40%;
+height:30vw; */
+/* since we specified the width and height of the div(div name=dramas) ,here we didnt need to use the property display:flex. */
+/* margin-bottom: 50px; */
+/* margin: auto; */
+/* align-items: center;
+vertical-align: middle;
+     */
+    /* margin-right:100px */
+/* justify-content: center;} */
+    /* } */
+    /* .transform{
+        
+    } */
+    /* span{
+        color:rgb(175, 172, 172);
+        font-size: 18px;
+display: inline-block;
+margin-top: 0;    }
+  span:hover{
+    text-decoration: none;
+  }   */
+        
+/* p{
+        font-size: 20px;
+        color: white; */
+    /* margin-top:5px; */
+    /* margin-left:50px; */
+
+    /* }
+
+    p:hover{
+        text-decoration: none;
+      } 
+      .dramaimage {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 4px; */
+        /* height: auto; */
+    /* }
+    .dramaimage1,.dramaimage2{
+        width: 100%;
+        height: 180px; */
+
+        /* height: auto; */
+/* 
+        transition: transform 0.3s ease-out;
+        border-radius: 4px;
+     transition: 0.1s ease-in-out;
+    }
+} */
+/* @media(min-width:768px){ */
+    /* .dramas-movies{
+        /* display:flex; */
+
+        /* flex-direction: row; */
+        /* flex-wrap: wrap; */
+
+    /* } */ 
+    /* .dramas{ */
+        /* display: flex;
+        flex-direction: row; */
+       /* flex:1; */
+       /* flex-wrap: wrap; */
+       /* margin: auto; */
+       /* margin-top: 20px;
+       float: left;
+       margin-left:40px;
+       margin-bottom: 40px; */
+       /* display: flex; */
+    /* align-items: center; */
+/* justify-content:space-evenly; */
+/* width:40%;
+height:30vw; */
+/* since we specified the width and height of the div(div name=dramas) ,here we didnt need to use the property display:flex. */
+/* margin-bottom: 50px; */
+/* margin: auto; */
+/* align-items: center;
+vertical-align: middle;
+     */
+    /* margin-right:100px */
+/* justify-content: center;} */
+    /* } */
+    /* .transform{
+        
+    } */
+    /* span{
+        color:rgb(175, 172, 172);
+        font-size: 18px;
+display: inline-block;
+margin-top: 0;    }
+  span:hover{
+    text-decoration: none;
+  }   */
+        
+/* p{
+        font-size: 20px;
+        color: white; */
+    /* margin-top:5px; */
+    /* margin-left:50px; */
+
+    /* }
+
+    p:hover{
+        text-decoration: none;
+      } 
+      .dramaimage {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 4px; */
+        /* height: auto; */
+    /* }
+    .dramaimage1,.dramaimage2{
+        width: 100%;
+        height: 180px; */
+
+        /* height: auto; */
+
+        /* transition: transform 0.3s ease-out;
+        border-radius: 4px;
+     transition: 0.1s ease-in-out;
+    }
+}  */
+
+.header1223{
+    background-color:black;
+    text-align: center;
+    z-index: 999;
+    position: fixed;
+    width:100%;
+    height:50px;
+
+}
+nav{
+    position: absolute;
+    text-align: left;
+    top:100%;
+    background-color:cadetblue;
+    width:100%;
+    /* height:30px; */
+
+}
+nav ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+    display:none;
+    /* transform:scale(0.5,0) */
+}
+nav li{
+    margin-bottom:1em;
+    margin-left: 1em;
+}
+nav a{
+    color:white;
+text-decoration: none;
+font-size: 1.2rem;
+text-transform: uppercase;
+}
+.nav-toggle:checked ~ nav ul{
+/* transform:scale(1,1); */
+display: block;
+}
+.nav-toggle{
+    display:none;
+}
+.nav-toggle-label{
+    position: absolute;
+    top: 0px;
+    right:0;
+    margin-right: 1em;
+    display: flex;
+    align-items: center;
+    height:100%;
+    /* border: 1px solid red; */
+}
+.nav-toggle-label span,.nav-toggle-label::after,.nav-toggle-label::before{
+    display: block;
+    background: white;
+    height: 2px;
+    width:2em;
+    position: relative;
+}
+.nav-toggle-label::after,.nav-toggle-label::before{
+    content: '';
+    position:absolute;
+}
+
+.nav-toggle-label::after{
+    top:12px;
+}
+
+.nav-toggle-label::before{
+    bottom:12px;
+}
+.search-middle{
+    width:100%;
+    height: 45px;
+    border-radius: 3px;
+    /* border:1px solid black; */
+    border: none;
+    padding:10px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.search-middle2{
+    width:90%;
+    height: 45px;
+    border-radius: 3px;
+    border:1px solid black;
+    margin:0;
+    /* border: none; */
+    padding:10px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.ending{
+    list-style: none;
+}
+/* .search-middle2: */
+
+    /* .links{
+        display: inline-block;  
+          margin-left: 0px; 
+          font-size: 10px;
+  
+       }
+        */
+         /* .links_{
+           display: inline-block;  
+            margin-left:50px; ;
+            font-size: 10px;
+
+           }
+        */
+        /* .links1{
+           display: inline-block;  
+           margin-left:425px;
+           font-size: 10px;
+
+         }
+        */
+/*        
+        .links2{ 
+         display: inline-block; 
+        margin-left: 50px;  
+        font-size: 10px;
+
+       }
+        */
+       
+/*        
+        .links3{ 
+         display: inline-block;  
+         /* margin-left: 50px;  */
+         /* font-size: 10px; */
+       /* } */ 
+       /* .li_a{
+        color: white;
+        font-size: 15px;
+        font-family: 'Crimson Text', serif;
+        font-weight: bold;
+        display: block;
+        float: left;
+      
+      } */
+      /* .logo1{
+        width: 10px;
+    } */
+    /* .li_a1{
+        font-size: 10px;
+
+    } */
+

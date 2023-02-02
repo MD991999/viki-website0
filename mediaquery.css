@@ -1,0 +1,509 @@
+@media(max-width:576px){
+    /* .koreandramas{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    } */
+    
+.dramas{
+    width: 50%;
+    /* overflow: hidden; */ 
+    margin-left:120px
+}
+.front{
+    position: absolute;
+    right: 10px;
+    top:300px;
+    left:5px;
+}
+#frontpage{
+height: auto;
+}
+.pstyle{
+    display: inline-block;
+}
+.bigmouth{
+    height: 300px;
+}
+.bigmouse{
+    width: 100%;
+    /* height: 500px;; */
+    background-attachment: fixed;
+    /* display: block;
+z-index:1; */
+/* float: left; */
+/* object-fit: contain; */
+height:100%;
+}
+#frontpage{
+    height: 550px;;
+   
+}
+.leftsession{
+    /* width:20%;
+    flex: 1; */
+    /* background-color: blueviolet; */
+    /* float:left; */
+  }
+  .logo1{
+    width: 150px;
+
+  }
+  .logo{
+    width:150px;
+    display: inline-block;
+  }
+  /* .middlesession{
+    width:20%;
+    flex: 1;
+
+    background-color: blue;
+  }
+  .thirdsession{
+    display: flex;
+padding-right: 10px;
+flex: 1;
+align-items: center;
+justify-content: space-evenly;
+width:60%;
+background-color:aqua;
+
+} */
+}
+@media(min-width:576px){
+    /* .koreandramas{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }  */
+    
+.dramas{
+    width:45%;
+    height:40vw;
+    /* display: inline; */
+    float:left;
+    /* overflow: hidden; */ 
+    /* margin-left:120px; */
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex: 1; */
+    /* flex: 20%; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.dramaimage {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 4px; 
+}
+.dramaimage1,.dramaimage2{
+    width: 100%;
+    height: 180px; 
+    object-fit: cover;
+
+}
+/* #frontpage{
+    height:800px;
+   
+} */
+.front{
+    position: absolute;
+    right: 10px;
+    top:240px;
+    left:5px;
+}
+/* .bigmouth{
+    /* height:500px; */
+    /* width: 100%; */
+
+/* }   */
+.paragraph1{
+    font-size:16px;
+}
+  .paragraph{
+    font-size: 16px;
+  }
+  .bigmouse{
+    width: 100%;
+    /* height: 500px;; */
+    background-attachment: fixed;
+    /* display: block;
+z-index:1; */
+/* float: left; */
+/* object-fit: contain; */
+  }
+  .logo1{
+    width: 150px;
+  }
+  .logo{
+    width: 150px;
+  }
+}
+
+
+@media(min-width:768px){
+    /* .koreandramas{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }  */
+    
+.dramas{
+    width:30%;
+    height:30vw;
+    /* display: inline; */
+    /* float:left; */
+    /* overflow: hidden; */ 
+    /* margin-left:120px; */
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex: 1; */
+    /* flex: 20%; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.front{
+    position: absolute;
+    right: 10px;
+    top:240px;
+    left:5px;
+}
+.dramaimage {
+    width: 100%;
+    height: 180px;
+    /* object-fit: cover; */
+    border-radius: 4px; 
+}
+.dramaimage1,.dramaimage2{
+    width: 100%;
+    height: 180px; 
+    /* object-fit: cover; */
+
+}
+.paragraph1{
+    font-size:18px;
+}
+  .paragraph{
+    font-size: 18px;
+  }
+  .headersection{
+ display: flex;
+ flex-direction: row;
+ justify-content:space-between;
+ align-items: center;
+ background-color: black;
+ height: 60px;
+ padding-right: 10px;
+ padding-left: 10px;
+  }
+  #menu{
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+  }
+  .leftsession{
+    /* width:20%; */
+    flex: 1;
+    /* background-color: blueviolet; */
+  }
+  .logo1{
+    width: 100px;
+  }
+  .middlesession{
+    /* width:20%; */
+    flex: 1;
+
+    /* background-color: blue; */
+  }
+  .thirdsession{
+    display: flex;
+/* padding-right: 10px; */
+flex: 1;
+align-items: center;
+justify-content: space-evenly;
+/* width:60%; */
+/* background-color:aqua; */
+
+  }
+  .li_a1{
+    font-size: 20px;
+    font-weight: 300px;
+    /* margin-left: 10px; */
+left: 10px;
+
+  }
+} 
+
+
+
+@media(min-width:992px){
+    /* .koreandramas{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }  */
+    
+.dramas{
+    width:30%;
+    height:24vw;
+    /* display: inline; */
+    /* float:left; */
+    /* overflow: hidden; */ 
+    /* margin-left:120px; */
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex: 1; */
+    /* flex: 20%; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.front{
+    position: absolute;
+    right: 10px;
+    top:300px;
+    left:5px;
+}
+.logo{
+    width: 200px;
+  }
+.dramaimage {
+    width: 100%;
+    height: 180px;
+    /* object-fit: cover; */
+    border-radius: 4px; 
+}
+.dramaimage1,.dramaimage2{
+    width: 100%;
+    height: 180px; 
+    /* object-fit: cover; */
+
+}
+.paragraph1{
+    font-size:18px;
+}
+  .paragraph{
+    font-size: 18px;
+  }
+  .headersection{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    background-color: black;
+    height: 60px;
+    padding-right: 10px;
+    padding-left: 10px;
+     }
+     #menu{
+       display: flex;
+       /* flex-wrap: wrap; */
+       align-items: center;
+     }
+     .leftsession{
+       /* width:20%; */
+       flex: 1;
+       /* background-color: blueviolet; */
+     }
+     .logo1{
+       width: 150px;
+     }
+     .middlesession{
+       /* width:20%; */
+       flex: 1;
+   
+       /* background-color: blue; */
+     }
+     .thirdsession{
+       display: flex;
+   /* padding-right: 10px; */
+   flex: 1;
+   align-items: center;
+   justify-content: space-evenly;
+   /* width:60%; */
+   /* background-color:aqua; */
+   
+     }
+     .li_a1{
+       font-size: 20px;
+       font-weight: 300px;
+       /* margin-left: 10px; */
+   left: 10px;
+   
+     }
+}
+
+
+
+
+@media(min-width:1200px){
+    /* .koreandramas{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }  */
+    
+.dramas{
+    width:23%;
+    height:20vw;
+    /* display: inline; */
+    /* float:left; */
+    /* overflow: hidden; */ 
+    /* margin-left:120px; */
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex: 1; */
+    /* flex: 20%; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.front{
+    position: absolute;
+    right: 10px;
+    top:330px;
+    left:5px;
+}
+.dramaimage {
+    width: 100%;
+    height: 180px;
+    /* object-fit: cover; */
+    border-radius: 4px; 
+}
+.dramaimage1,.dramaimage2{
+    width: 100%;
+    height: 180px; 
+    /* object-fit: cover; */
+
+}
+.paragraph1{
+    font-size:18px;
+}
+  .paragraph{
+    font-size: 18px;
+  }
+  .bigmouse{
+    width: 100%;
+    /* height: 500px;; */
+    background-attachment: fixed;
+    /* object-fit: cover; */
+    /* display: block;
+z-index:1; */
+/* float: left; */
+/* object-fit: contain; */
+  }
+}
+@media(max-width:768px){
+    .headersection{
+        display: none;
+    }
+}
+@media(min-width:768px){
+    /* .headersection{
+        display: block;
+
+    } */
+    .header1223{
+        display: none;
+    }
+}
+@media(min-width:576px){ 
+    .paragraph1{
+      font-size:18px;
+  }
+    .paragraph{
+      font-size: 18px;
+    }
+  }  
+  @media(max-width:600px){
+    header{
+      height: 10px;
+    }
+    
+  }
+  @media(max-width:576px){
+    #Movies1{
+        width:100%;
+/* height:auto; */
+overflow: hidden;
+}
+}
+@media(min-width:576px) {
+    #Movies1{
+        width:100%;
+        /* height:auto; */
+         overflow: hidden;
+    }
+}
+@media(min-width:768px) {
+    #Movies1{
+        width:100%;
+        /* height:auto; */
+         overflow: hidden;
+    }
+}
+@media(min-width:992px) {
+    #Movies1{
+        width:100%;
+        /* height:auto; */
+         overflow: hidden;
+    }
+}
+@media(min-width:1200px) {
+    #Movies1{
+        width:100%;
+        /* height:auto; */
+         overflow: hidden;
+    }
+    #frontpage{
+        height:auto;
+    }
+}
+@media(max-width:576px) {
+    .pstyle,.spanstyle{
+        font-size: 14px;
+    }
+}
+@media(max-width:600px){
+    .email,.password{
+        width:200px;
+        font-size: 16px;
+}
+}
+@media(max-width:600px){
+    .fpswd,.reset{
+        font-size: 14px;
+    }
+}
+@media(max-width:600px){
+    .continue{
+        font-size: 18px;
+        width:150px;
+
+
+    }
+}
+@media(max-width:600px){
+    .confirm,.condition1,.condition2{
+        font-size: 12px;
+        
+
+    }
+}
+@media(max-width:600px){
+    .inline{
+        width: 200px;
+        font-size: 16px;
+    }
+}
+@media(max-width:600px){
+    .heading{
+        font-size: 20px;
+        
+
+    }
+}
