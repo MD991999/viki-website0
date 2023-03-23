@@ -62,9 +62,15 @@ margin-top:5px;
 }
 
 .one:hover{
-     transform:scale(1.25) ; 
+     transform:scale(1.5) ; 
 
 }
+
+
+/* #index:hover{
+    transform:scale(1.25) ; 
+ 
+} */
 .transform{
     transition: 0.1s ease-in-out; 
 
